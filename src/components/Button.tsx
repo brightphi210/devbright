@@ -23,9 +23,9 @@ export const Button: React.FC<ButtonProps> = ({title, action} : ButtonProps) => 
 
 
 
-export const Button2: React.FC<ButtonProps> = ({title, action} : ButtonProps) => {
+export const Button2: React.FC<Button3Props> = ({title} : Button3Props) => {
   return (
-    <button onClick={action} className='flex gap-3 font-semibold text-sm cursor-pointer items-center bg-gradient-to-r from-yellow-200 to-pink-300 text-black px-10 py-3 rounded-md mt-5'>
+    <button className='flex gap-3 font-semibold text-sm cursor-pointer items-center bg-gradient-to-r from-yellow-200 to-pink-300 text-black px-10 py-3 rounded-md mt-5'>
         {title}
         <IoMdCloudDownload />
     </button>

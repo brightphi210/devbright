@@ -12,6 +12,7 @@ import BottomBar from './components/BottomBar';
 AOS.init();
 
 
+
 function App() {
 
   const [position, setPosition] = useState({ x: 0, y: 0 });
@@ -26,6 +27,16 @@ function App() {
 
 
   const [isDark, setIsDark] = useState<any>(true)
+  const [isNavOpen, setIsNavOpen] = useState(false)
+
+  
+  const handleLinkClick = (sectionId : any) => {
+    setIsNavOpen(false);
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   
 
   return (
@@ -42,10 +53,10 @@ function App() {
       />
 
 
-      <Header isDark={isDark} setIsDark={setIsDark}/>
+      <Header isDark={isDark} setIsDark={setIsDark} isNavOpen={isNavOpen} setIsNavOpen={setIsNavOpen} handleLinkClick={handleLinkClick}/>
       <Home isDark={isDark} setIsDark={setIsDark}/>
       <Footer isDark={isDark} setIsDark={setIsDark}/>
-      <BottomBar isDark={isDark}/>
+      <BottomBar isDark={isDark} handleLinkClick={handleLinkClick}/>
     </div>
   )
 }
