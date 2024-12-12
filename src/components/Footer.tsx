@@ -6,7 +6,7 @@ import { FaGithub } from "react-icons/fa6";
 const Footer = ({isDark}:any) => {
 
   const dark2 = 'text-white bg-gradient-to-b from-neutral-900 to-black'
-  const light2 = 'bg-white text-neutral-900'
+  const light2 = 'bg-neutral-50 text-neutral-900'
 
 
   return (
@@ -17,10 +17,10 @@ const Footer = ({isDark}:any) => {
 
       <p className="text-center text-sm pt-10 text-neutral-400">Get in touch</p>
       <ul className="lg:w-full w-[90%] px-5 m-auto justify-center flex items-center gap-10 mt-10">
-        <li className="flex rounded-full lg:p-5 p-3 lg:text-xl text-base bg-none border border-neutral-400"><FaLinkedin /></li>
-        <li className="flex rounded-full lg:p-5 p-3 lg:text-xl text-base bg-none border border-neutral-400"><FaXTwitter /></li>
-        <li className="flex rounded-full lg:p-5 p-3 lg:text-xl text-base bg-none border border-neutral-400"><RiTelegram2Line /></li>
-        <li className="flex rounded-full lg:p-5 p-3 lg:text-xl text-base bg-none border border-neutral-400"><FaGithub /></li>
+        <li className="hover:bg-neutral-800 hover:text-neutral-100 hover:border-none hover:transition-all ease-in-out delay-75 flex rounded-full lg:p-5 p-3 lg:text-xl text-base bg-none border border-neutral-400"><FaLinkedin /></li>
+        <li className="hover:bg-neutral-800 hover:text-neutral-100 hover:border-none hover:transition-all ease-in-out delay-75 flex rounded-full lg:p-5 p-3 lg:text-xl text-base bg-none border border-neutral-400"><FaXTwitter /></li>
+        <li className="hover:bg-neutral-800 hover:text-neutral-100 hover:border-none hover:transition-all ease-in-out delay-75 flex rounded-full lg:p-5 p-3 lg:text-xl text-base bg-none border border-neutral-400"><RiTelegram2Line /></li>
+        <li className="hover:bg-neutral-800 hover:text-neutral-100 hover:border-none hover:transition-all ease-in-out delay-75 flex rounded-full lg:p-5 p-3 lg:text-xl text-base bg-none border border-neutral-400"><FaGithub /></li>
       </ul>
     </div>
   )
