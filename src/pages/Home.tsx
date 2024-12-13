@@ -109,6 +109,35 @@ const Home = ({isDark}:any) => {
                 ))}
             </div>
         </section>
+
+        <section id='experience' className={` lg:py-[7rem] py-[5rem] 2xl:px-[20rem] xl:px-[10rem] lg:px-[8rem] px-5 ${isDark === true ? dark : light2}`}>
+            <p className='special text-2xl bg-gradient-to-r from-orange-300 to-pink-600 bg-clip-text text-transparent'>{'</ Work Experience >'}</p>
+
+            <div className={`flex flex-col gap-7 mt-8 ${isDark === true ? '' : ''}`}>
+
+                <div className={`p-5 rounded-md ${isDark === true ? 'bg-neutral-800 text-neutral-100' : 'bg-neutral-100 text-neutral-700'}`}>
+                    <p className='special lg:text-2xl text-lg font-bold'>Frontend Developer - Neupay Technologies(Part-time)</p>
+                    <p className='text-sm pt-3 text-neutral-400'>September 2024 - Present - Calabar, Nigeria</p>
+                </div>
+
+                <div className={`p-5 rounded-md ${isDark === true ? 'bg-neutral-800 text-neutral-100' : 'bg-neutral-100 text-neutral-700'}`}>
+                    <p className='special lg:text-2xl text-lg font-bold'>Co-Builder - Creve Africa (Personal)</p>
+                    <p className='text-sm pt-3 text-neutral-400'>Port Harcourt, Nigeria</p>
+                </div>
+
+                <div className={`p-5 rounded-md ${isDark === true ? 'bg-neutral-800 text-neutral-100' : 'bg-neutral-100 text-neutral-700'}`}>
+                    <p className='special lg:text-2xl text-lg font-bold'>Mobile Developer - Foodgrab (Contract)</p>
+                    <p className='text-sm pt-3 text-neutral-400'>Port Harcourt, Nigeria</p>
+                </div>
+                
+                <div className={`p-5 rounded-md ${isDark === true ? 'bg-neutral-800 text-neutral-100' : 'bg-neutral-100 text-neutral-700'}`}>
+                    <p className='special lg:text-2xl text-lg font-bold'>Software Developer - Crypto Smart (Part-time)</p>
+                    <p className='text-sm pt-3 text-neutral-400'>Port Harcourt, Nigeria</p>
+                </div>
+
+            </div>
+        </section>
+
     </div>
   )
 }

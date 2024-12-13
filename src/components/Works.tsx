@@ -65,14 +65,14 @@ export const WorksData = [
         name: 'Smartchange',
         image: smart,
         url: 'https://smartchangeweb.vercel.app/',
-        description: 'Per to Per crypto trading Dashboard'
+        description: 'Peer to Peer crypto trading Dashboard'
     },
 
     {
         id: 8,
-        name: 'Borderless3.0 | Byte on chain',
+        name: '(ByteOnChain)',
         image: border,
         url: 'https://borderless3-0.vercel.app/',
-        description: 'Per to Per crypto trading Dashboard'
+        description: 'Platform where users can share memories and ask questions during events'
     },
 ]

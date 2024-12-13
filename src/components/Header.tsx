@@ -36,6 +36,8 @@ const Header = ({isDark, setIsDark, isNavOpen, setIsNavOpen, handleLinkClick}:an
                 <li className='cursor-pointer' onClick={() => handleLinkClick("about")}>About</li>
                 <li className='cursor-pointer' onClick={() => handleLinkClick("skills")}>Skills</li>
                 <li className='cursor-pointer' onClick={() => handleLinkClick("projects")}>Projects</li>
+                <li className='cursor-pointer' onClick={() => handleLinkClick("experience")}>Experience</li>
+                
                 <div className='flex gap-10' onClick={handleDark}>
                     {isDark === true ? 
                         <p className={`${isDark === true ? 'bg-orange-100 text-neutral-900' : 'bg-orange-300 text-white'} cursor-pointer flex rounded-full p-2 text-lg`}><LuSunDim /></p> :
@@ -64,6 +66,7 @@ const Header = ({isDark, setIsDark, isNavOpen, setIsNavOpen, handleLinkClick}:an
                         <li className='cursor-pointer mb-8' onClick={() => handleLinkClick("about")}>About</li>
                         <li className='cursor-pointer mb-8' onClick={() => handleLinkClick("skills")}>Skills</li>
                         <li className='cursor-pointer mb-8' onClick={() => handleLinkClick("projects")}>Projects</li>
+                        <li className='cursor-pointer' onClick={() => handleLinkClick("experience")}>Experience</li>
                     </ul>
                     
                     <p onClick={handleShowNavbar} className={`absolute top-10 right-10 text-lg flex items-center 
