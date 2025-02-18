@@ -9,6 +9,7 @@ import food from '../assets/food.png'
 import smart from '../assets/smart.png'
 import zero from '../assets/zero.png'
 import beta from '../assets/betaa.png'
+import codestra from '../assets/bb.png'
 
 
 export const WorksData = [
@@ -34,6 +35,14 @@ export const WorksData = [
 
     {
         id: 3,
+        name: 'Codestra',
+        image: codestra,
+        url: 'https://codestra.co/',
+        description: "Codestra Craftsmanship in Every Line of  Code."
+    },
+
+    {
+        id: 4,
         name: 'Neupay',
         image: neu,
         url: 'https://neupay.co/',
@@ -42,7 +51,7 @@ export const WorksData = [
 
 
     {
-        id: 4,
+        id: 5,
         name: 'BMP Inovations',
         image: bmp,
         url: 'https://bmp-inovations.vercel.app/',
@@ -50,7 +59,7 @@ export const WorksData = [
     },
 
     {
-        id: 5,
+        id: 6,
         name: 'Welearn Global',
         image: welearn,
         url: 'https://www.welearnglobal.org/',
@@ -58,7 +67,7 @@ export const WorksData = [
     },
 
     {
-        id: 6,
+        id: 7,
         name: 'Zerotrust',
         image: zero,
         url: 'https://zero-client.vercel.app/',
@@ -66,7 +75,7 @@ export const WorksData = [
     },
 
     {
-        id: 7,
+        id: 8,
         name: 'Foodgrab',
         image: food,
         url: 'https://food-grab-web.vercel.app/',
@@ -74,7 +83,7 @@ export const WorksData = [
     },
 
     {
-        id: 8,
+        id: 9,
         name: 'Smartchange',
         image: smart,
         url: 'https://smartchangeweb.vercel.app/',
@@ -82,7 +91,7 @@ export const WorksData = [
     },
 
     {
-        id: 9,
+        id: 10,
         name: '(ByteOnChain)',
         image: border,
         url: 'https://borderless3-0.vercel.app/',

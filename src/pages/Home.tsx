@@ -99,7 +99,10 @@ const Home = ({isDark}:any) => {
                         <div className='pt-8 pb-5'>
                             <div className='flex items-center'>
                                 <h2>{data.name}</h2>
-                                <a href={data.url} className='ml-auto'>
+                                <a href={data.url} 
+                                    target="_blank" 
+                                    rel="noopener noreferrer" 
+                                    className='ml-auto'>
                                     <Button3 title='View Product' />
                                 </a>
                             </div>
