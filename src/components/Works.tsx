@@ -10,6 +10,7 @@ import smart from '../assets/smart.png'
 import zero from '../assets/zero.png'
 import beta from '../assets/betaa.png'
 import codestra from '../assets/bb.png'
+import we from '../assets/we.png'
 
 
 export const WorksData = [
@@ -23,7 +24,6 @@ export const WorksData = [
         url: 'https://betaui.vercel.app/',
         description: 'Beta UI is a sleek, and developer-friendly UI library designed to accelerate the creation of modern, responsive, user interfaces.'
     },
-
 
     {
         id: 2,
@@ -43,6 +43,15 @@ export const WorksData = [
 
     {
         id: 4,
+        name: 'Welearn Global',
+        image: we,
+        url: 'https://welearnglobal.net/',
+        description: 'Software that connects Verified Instructors and parents who need there services'
+    },
+
+
+    {
+        id: 5,
         name: 'Neupay',
         image: neu,
         url: 'https://neupay.co/',
@@ -51,7 +60,7 @@ export const WorksData = [
 
 
     {
-        id: 5,
+        id: 6,
         name: 'BMP Inovations',
         image: bmp,
         url: 'https://bmp-inovations.vercel.app/',
@@ -59,7 +68,7 @@ export const WorksData = [
     },
 
     {
-        id: 6,
+        id: 7,
         name: 'Welearn Global',
         image: welearn,
         url: 'https://www.welearnglobal.org/',
@@ -67,7 +76,7 @@ export const WorksData = [
     },
 
     {
-        id: 7,
+        id: 8,
         name: 'Zerotrust',
         image: zero,
         url: 'https://zero-client.vercel.app/',
@@ -75,7 +84,7 @@ export const WorksData = [
     },
 
     {
-        id: 8,
+        id: 9,
         name: 'Foodgrab',
         image: food,
         url: 'https://food-grab-web.vercel.app/',
@@ -83,7 +92,7 @@ export const WorksData = [
     },
 
     {
-        id: 9,
+        id: 10,
         name: 'Smartchange',
         image: smart,
         url: 'https://smartchangeweb.vercel.app/',
@@ -91,7 +100,7 @@ export const WorksData = [
     },
 
     {
-        id: 10,
+        id: 11,
         name: '(ByteOnChain)',
         image: border,
         url: 'https://borderless3-0.vercel.app/',
