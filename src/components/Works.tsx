@@ -29,7 +29,7 @@ export const WorksData = [
         id: 2,
         name: 'Creve Africa',
         image: creve,
-        url: 'https://www.creve.live/',
+        url: 'https://creve.vercel.app/',
         description: 'Freelance Platform for connecting Vetted Artisan to Potential Clients'
     },
 
