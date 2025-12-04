@@ -58,7 +58,7 @@ const Home = ({isDark}:any) => {
                     Let’s create something extraordinary! 🌟
                 </p>
 
-                <a href="https://drive.google.com/file/d/1Xkw1l4_0p1Jgo25amOliRs6GX0qIduHm/view?usp=sharing">
+                <a href="https://docs.google.com/document/d/12fhe4_KjHnMiVKvLmoVW_cjDX3-WBTpEXm1PHe0Xpwo/edit?usp=sharing">
                     <Button2 title='Resume'/>
                 </a>
             </div>
