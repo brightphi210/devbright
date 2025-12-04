@@ -11,14 +11,21 @@ import zero from '../assets/zero.png'
 import beta from '../assets/betaa.png'
 import codestra from '../assets/bb.png'
 import we from '../assets/we.png'
+import betamind from '../assets/beta.png'
 
 
 export const WorksData = [
 
-
-
     {
         id: 1,
+        name: 'Betamind',
+        image: betamind,
+        url: 'https://betamind.vercel.app/',
+        description: 'Betamind is a hub where minds become better through mentorship. We make mentorship accessible and affordable for everyone.'
+    },
+
+    {
+        id: 2,
         name: 'Beta UI',
         image: beta,
         url: 'https://betaui.vercel.app/',
@@ -26,7 +33,7 @@ export const WorksData = [
     },
 
     {
-        id: 2,
+        id: 3,
         name: 'Creve Africa',
         image: creve,
         url: 'https://creve.vercel.app/',
@@ -34,7 +41,7 @@ export const WorksData = [
     },
 
     {
-        id: 3,
+        id: 4,
         name: 'Codestra',
         image: codestra,
         url: 'https://codestra.co/',
@@ -42,7 +49,7 @@ export const WorksData = [
     },
 
     {
-        id: 4,
+        id: 5,
         name: 'Welearn Global',
         image: we,
         url: 'https://welearnglobal.net/',
@@ -51,7 +58,7 @@ export const WorksData = [
 
 
     {
-        id: 5,
+        id: 6,
         name: 'Neupay',
         image: neu,
         url: 'https://neupay.co/',
@@ -60,7 +67,7 @@ export const WorksData = [
 
 
     {
-        id: 6,
+        id: 7,
         name: 'BMP Inovations',
         image: bmp,
         url: 'https://bmp-inovations.vercel.app/',
@@ -68,7 +75,7 @@ export const WorksData = [
     },
 
     {
-        id: 7,
+        id: 8,
         name: 'Welearn Global',
         image: welearn,
         url: 'https://www.welearnglobal.org/',
@@ -76,7 +83,7 @@ export const WorksData = [
     },
 
     {
-        id: 8,
+        id: 9,
         name: 'Zerotrust',
         image: zero,
         url: 'https://zero-client.vercel.app/',
@@ -84,7 +91,7 @@ export const WorksData = [
     },
 
     {
-        id: 9,
+        id: 10,
         name: 'Foodgrab',
         image: food,
         url: 'https://food-grab-web.vercel.app/',
@@ -92,7 +99,7 @@ export const WorksData = [
     },
 
     {
-        id: 10,
+        id: 11,
         name: 'Smartchange',
         image: smart,
         url: 'https://smartchangeweb.vercel.app/',
@@ -100,7 +107,7 @@ export const WorksData = [
     },
 
     {
-        id: 11,
+        id: 12,
         name: '(ByteOnChain)',
         image: border,
         url: 'https://borderless3-0.vercel.app/',
