@@ -11,11 +11,13 @@ interface Project {
     image?: string;
 }
 
-import bio from '../assets/image.png';
 import image1 from '../assets/images/1.png';
 import image2 from '../assets/images/2.png';
 import image3 from '../assets/images/3.png';
 import image4 from '../assets/images/4.png';
+import image5 from '../assets/images/5.png';
+import image6 from '../assets/images/6.png';
+import bio from '../assets/images/bio.png';
 
 const Home = ({ isDark }: any) => {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -36,9 +38,9 @@ const Home = ({ isDark }: any) => {
             id: 2,
             number: "02 — Identity & Verification",
             title: "CredentialPath",
-            category: "FinTech",
+            category: "SaaS",
             description: "Digital credential verification and identity validation platform with secure credential workflows and identity management systems.",
-            tags: ["Next.js", "Security", "FinTech"],
+            tags: ["Python(Django)", "React", "TypeScript", "Security", "SaaS"],
             link: "https://credentialpath.io/",
             image: image2,
         },
@@ -62,26 +64,26 @@ const Home = ({ isDark }: any) => {
             link: "https://creve.vercel.app/",
             image: image4,
         },
-        // {
-        //     id: 5,
-        //     number: "05 — Web3",
-        //     title: "Borderless 3.0",
-        //     category: "Blockchain",
-        //     description: "Web3-focused platform exploring decentralized experiences. Built Web3 frontend interfaces, user flows, and smart contract integrations.",
-        //     tags: ["Web3", "Blockchain", "DeFi"],
-        //     link: "https://borderless3-0.vercel.app/",
-        //     image: image5,
-        // },
-        // {
-        //     id: 6,
-        //     number: "06 — Client Platform",
-        //     title: "Zero Client",
-        //     category: "UI/UX",
-        //     description: "Client-focused platform with scalable frontend architecture. Performance-optimized responsive interfaces with structured frontend systems.",
-        //     tags: ["React", "Performance", "UI/UX"],
-        //     link: "https://zero-client.vercel.app/",
-        //     image: image6,
-        // },
+        {
+            id: 5,
+            number: "05 — Web3",
+            title: "KubotAI",
+            category: "Blockchain",
+            description: "Kubotai is a revolutionary platform that connects users with opportunities to earn real rewards. We believe everyone should have access to simple ways to earn money online.",
+            tags: ["Web3", "Blockchain", "React"],
+            link: "https://kubotai.org/",
+            image: image5,
+        },
+        {
+            id: 6,
+            number: "06 — Educational Platform",
+            title: "Wintrice",
+            category: "EdTech",
+            description: "Wintrice unifies financial education, real-world investing, and financial planning into one system—built for schools, students, and the modern workforce.",
+            tags: ["React", "Performance"],
+            link: "https://wintrice.com/",
+            image: image6,
+        },
         // {
         //     id: 7,
         //     number: "07 — FinTech",
@@ -244,7 +246,7 @@ const Home = ({ isDark }: any) => {
                             Full-Stack Developer & Product Builder
                         </div>
 
-                        <h1 className="font-display font-extrabold leading-[0.95] tracking-[-0.04em] text-[#F5F3EE] text-[clamp(3rem,6vw,5.5rem)] anim-fade-up-2">
+                        <h1 className="font-display font-extrabold leading-[0.99] tracking-[-0.04em] text-[#F5F3EE] text-[clamp(2.5rem,6vw,5rem)] anim-fade-up-2">
                             Bright<br />Chibuzor<br />
                             <span className="text-[#E8870A]">Philip.</span>
                         </h1>
@@ -278,22 +280,19 @@ const Home = ({ isDark }: any) => {
 
                     {/* Right — image block */}
                     <div className="relative anim-fade-left order-first lg:order-last mx-auto w-full max-w-[320px] lg:max-w-none">
-                        <div className="relative w-full aspect-[4/5] rounded-md overflow-hidden bg-[#161616] border border-white/[0.07]">
-                            <img src={bio} alt="Profile" />
+                        <div className="relative w-full  rounded-md overflow-hidden bg-[#0a0a0a] border-2 border-white/[0.02]">
+                            <img src={bio} alt="Profile" className='w-full h-full' />
                         </div>
-                        {/* Decorative borders */}
-                        <div className="absolute -bottom-5 -right-5 w-28 h-28 border border-[rgba(232,135,10,0.25)] rounded -z-[1]" />
-                        <div className="absolute -top-4 -left-4 w-20 h-20 border border-white/[0.08] rounded -z-[1]" />
 
                         {/* Stats */}
-                        <div className="grid grid-cols-2 gap-px mt-6 border border-white/[0.07] rounded-md overflow-hidden bg-white/[0.07]">
+                        <div className="grid grid-cols-2 gap-px mt-6 border border-white/[0.04] rounded-md overflow-hidden bg-white/[0.05]">
                             {[
                                 { num: '4+', label: 'Years Exp.' },
                                 { num: '10+', label: 'Projects' },
                                 { num: '3', label: 'Tech Stacks' },
                                 { num: '1', label: 'Startup Founded' },
                             ].map(s => (
-                                <div key={s.label} className="bg-[#0e0e0e] p-4 text-center">
+                                <div key={s.label} className="bg-[#090909] p-4 text-center">
                                     <span className="font-display font-extrabold text-[1.6rem] text-[#E8870A] tracking-tight block">{s.num}</span>
                                     <span className="font-mono-custom text-[0.65rem] text-[#888580] tracking-widest uppercase block mt-0.5">{s.label}</span>
                                 </div>
@@ -357,7 +356,7 @@ const Home = ({ isDark }: any) => {
                                 { label: 'Frontend', tags: ['React JS', 'Next.js', 'TypeScript', 'JavaScript', 'Tailwind CSS'] },
                                 { label: 'Backend', tags: ['Python', 'Django', 'REST APIs'] },
                                 { label: 'Mobile & Data', tags: ['React Native', 'TanStack Query', 'API Integration'] },
-                                { label: 'Blockchain / Web3', tags: ['Smart Contracts', 'Web3 Interfaces', 'dApps'] },
+                                { label: 'Blockchain / Web3', tags: ['Web3 Interfaces', 'dApps'] },
                                 { label: 'Tools', tags: ['Git', 'GitHub', 'CI/CD', 'Figma'] },
                             ].map(group => (
                                 <div key={group.label}>
@@ -429,7 +428,7 @@ const Home = ({ isDark }: any) => {
                                 bullets: [],
                                 delay: 'reveal-delay-2',
                             },
-                        ].map((exp, i, arr) => (
+                        ].map((exp) => (
                             <div
                                 key={exp.company}
                                 className={`grid grid-cols-1 md:grid-cols-[200px_1fr] gap-4 md:gap-10 py-10 border-b border-white/[0.07] last:border-0 reveal ${exp.delay}`}
