@@ -246,7 +246,7 @@ const Home = ({ isDark }: any) => {
                             Full-Stack Developer & Product Builder
                         </div>
 
-                        <h1 className="font-display font-extrabold leading-[0.99] tracking-[-0.04em] text-[#F5F3EE] text-[clamp(2.5rem,6vw,5rem)] anim-fade-up-2">
+                        <h1 className="font-display font-extrabold leading-[1.2] tracking-[-0.04em] text-[#F5F3EE] text-[clamp(2.5rem,6vw,5rem)] anim-fade-up-2">
                             Bright<br />Chibuzor<br />
                             <span className="text-[#E8870A]">Philip.</span>
                         </h1>
@@ -280,12 +280,12 @@ const Home = ({ isDark }: any) => {
 
                     {/* Right — image block */}
                     <div className="relative anim-fade-left order-first lg:order-last mx-auto w-full max-w-[320px] lg:max-w-none">
-                        <div className="relative w-full  rounded-md overflow-hidden bg-[#0a0a0a] border-2 border-white/[0.02]">
+                        <div className="relative w-full  rounded-2xl overflow-hidden bg-[#0a0a0a] border-2 border-white/[0.02]">
                             <img src={bio} alt="Profile" className='w-full h-full' />
                         </div>
 
                         {/* Stats */}
-                        <div className="grid grid-cols-2 gap-px mt-6 border border-white/[0.04] rounded-md overflow-hidden bg-white/[0.05]">
+                        <div className="grid grid-cols-2 gap-px mt-3 border border-white/[0.04] rounded-2xl overflow-hidden bg-white/[0.05]">
                             {[
                                 { num: '4+', label: 'Years Exp.' },
                                 { num: '10+', label: 'Projects' },
