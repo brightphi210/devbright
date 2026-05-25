@@ -11,11 +11,11 @@ interface Project {
     image?: string;
 }
 
+import bio from '../assets/image.png';
 import image1 from '../assets/images/1.png';
 import image2 from '../assets/images/2.png';
 import image3 from '../assets/images/3.png';
 import image4 from '../assets/images/4.png';
-import { default as image5, default as image6, default as image7 } from '../assets/images/5.png';
 
 const Home = ({ isDark }: any) => {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -62,36 +62,36 @@ const Home = ({ isDark }: any) => {
             link: "https://creve.vercel.app/",
             image: image4,
         },
-        {
-            id: 5,
-            number: "05 — Web3",
-            title: "Borderless 3.0",
-            category: "Blockchain",
-            description: "Web3-focused platform exploring decentralized experiences. Built Web3 frontend interfaces, user flows, and smart contract integrations.",
-            tags: ["Web3", "Blockchain", "DeFi"],
-            link: "https://borderless3-0.vercel.app/",
-            image: image5,
-        },
-        {
-            id: 6,
-            number: "06 — Client Platform",
-            title: "Zero Client",
-            category: "UI/UX",
-            description: "Client-focused platform with scalable frontend architecture. Performance-optimized responsive interfaces with structured frontend systems.",
-            tags: ["React", "Performance", "UI/UX"],
-            link: "https://zero-client.vercel.app/",
-            image: image6,
-        },
-        {
-            id: 7,
-            number: "07 — FinTech",
-            title: "SmartChange",
-            category: "FinTech",
-            description: "Modern web platform with scalable UI architecture. Built responsive frontend interfaces with clean UX principles and optimised performance.",
-            tags: ["Next.js", "FinTech", "Tailwind CSS"],
-            link: "https://smartchangeweb.vercel.app/",
-            image: image7,
-        },
+        // {
+        //     id: 5,
+        //     number: "05 — Web3",
+        //     title: "Borderless 3.0",
+        //     category: "Blockchain",
+        //     description: "Web3-focused platform exploring decentralized experiences. Built Web3 frontend interfaces, user flows, and smart contract integrations.",
+        //     tags: ["Web3", "Blockchain", "DeFi"],
+        //     link: "https://borderless3-0.vercel.app/",
+        //     image: image5,
+        // },
+        // {
+        //     id: 6,
+        //     number: "06 — Client Platform",
+        //     title: "Zero Client",
+        //     category: "UI/UX",
+        //     description: "Client-focused platform with scalable frontend architecture. Performance-optimized responsive interfaces with structured frontend systems.",
+        //     tags: ["React", "Performance", "UI/UX"],
+        //     link: "https://zero-client.vercel.app/",
+        //     image: image6,
+        // },
+        // {
+        //     id: 7,
+        //     number: "07 — FinTech",
+        //     title: "SmartChange",
+        //     category: "FinTech",
+        //     description: "Modern web platform with scalable UI architecture. Built responsive frontend interfaces with clean UX principles and optimised performance.",
+        //     tags: ["Next.js", "FinTech", "Tailwind CSS"],
+        //     link: "https://smartchangeweb.vercel.app/",
+        //     image: image7,
+        // },
     ];
 
     useEffect(() => {
@@ -279,16 +279,7 @@ const Home = ({ isDark }: any) => {
                     {/* Right — image block */}
                     <div className="relative anim-fade-left order-first lg:order-last mx-auto w-full max-w-[320px] lg:max-w-none">
                         <div className="relative w-full aspect-[4/5] rounded-md overflow-hidden bg-[#161616] border border-white/[0.07]">
-                            <div className="absolute inset-0 bg-gradient-to-br from-[rgba(232,135,10,0.08)] to-transparent z-[1]" />
-                            <div className="w-full h-full flex flex-col items-center justify-center gap-3 text-[#555250]">
-                                <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-16 h-16 opacity-30">
-                                    <circle cx="32" cy="22" r="12" stroke="currentColor" strokeWidth="1.5" />
-                                    <path d="M8 56c0-13.255 10.745-24 24-24s24 10.745 24 24" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
-                                </svg>
-                                <p className="font-mono-custom text-[0.72rem] tracking-widest uppercase text-[#555250]">
-                                    Add your photo here
-                                </p>
-                            </div>
+                            <img src={bio} alt="Profile" />
                         </div>
                         {/* Decorative borders */}
                         <div className="absolute -bottom-5 -right-5 w-28 h-28 border border-[rgba(232,135,10,0.25)] rounded -z-[1]" />
